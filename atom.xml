@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Mobile Developer's blog]]></title>
+  <link href="http://tuszy.github.com/atom.xml" rel="self"/>
+  <link href="http://tuszy.github.com/"/>
+  <updated>2011-12-10T15:29:03+01:00</updated>
+  <id>http://tuszy.github.com/</id>
+  <author>
+    <name><![CDATA[Michal Tuszynski]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello]]></title>
+    <link href="http://tuszy.github.com/blog/2011/12/10/hello/"/>
+    <updated>2011-12-10T15:28:00+01:00</updated>
+    <id>http://tuszy.github.com/blog/2011/12/10/hello</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
