@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Mobile Developer's blog]]></title>
-  <link href="http://Tuszy.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: news | Mobile Developer's blog]]></title>
+  <link href="http://Tuszy.github.com/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://Tuszy.github.com/"/>
   <updated>2012-01-18T15:34:11+01:00</updated>
   <id>http://Tuszy.github.com/</id>
@@ -26,21 +26,9 @@ diving into Core Data and iCloud. The whole presentation is available for
 you to download from slideshare @ slidesha.re/vGHDza. All the code samples are
 also available in GitHub (links in the last slide of the presentation).</p>
 
-<p>I&#8217;d like to thank the organizers for such an awesome event. I met a lot of
+<p>I'd like to thank the organizers for such an awesome event. I met a lot of
 interesting people and got a chance to listen to interesting topics from other
-speakers. It&#8217;s good that there is more buzz around mobile topics lately in Poland.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://Tuszy.github.com/blog/2011/12/10/hello/"/>
-    <updated>2011-12-10T15:28:00+01:00</updated>
-    <id>http://Tuszy.github.com/blog/2011/12/10/hello</id>
-    <content type="html"><![CDATA[<p>Hello!</p>
-
-<p>Looks like my blog is back to life after technical problems. I&#8217;ll try to do some regular posting
-as my timetable allows</p>
+speakers. It's good that there is more buzz around mobile topics lately in Poland.</p>
 ]]></content>
   </entry>
   
