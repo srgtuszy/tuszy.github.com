@@ -4,7 +4,7 @@
   <title><![CDATA[Mobile Developer's blog]]></title>
   <link href="http://Tuszy.github.com/atom.xml" rel="self"/>
   <link href="http://Tuszy.github.com/"/>
-  <updated>2012-01-18T15:34:11+01:00</updated>
+  <updated>2012-01-18T16:31:22+01:00</updated>
   <id>http://Tuszy.github.com/</id>
   <author>
     <name><![CDATA[Michal Tuszynski]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[UIViews from xib files]]></title>
+    <link href="http://Tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files/"/>
+    <updated>2012-01-18T15:35:00+01:00</updated>
+    <id>http://Tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files</id>
+    <content type="html"><![CDATA[<p>During my last project, there was a need to load UIView classes from xib files. It&#8217;s pretty
+simple with the following method which takes two arguments: the xib name (without xib extension) and the Class of the UIView subclass.</p>
+
+<div><script src='https://gist.github.com/1621680.js?file='></script>
+<noscript><pre><code>+(UIView *)fetchViewFromNib:(NSString *)nibName withClass:(Class)viewClass {
+    
+    NSArray *nibObjects = [[NSBundle mainBundle] loadNibNamed:nibName owner:nil options:nil];
+    
+    UIView *view = nil;
+    
+    for (id object in nibObjects) {
+        
+        if ([object isKindOfClass:viewClass]) {
+            view = object;
+        }
+    }
+    
+    return view;
+}</code></pre></noscript></div>
+
+
+<p>After emedding the snippet, just create a new subclass of UIView class and a xib file with a view. Then, just type in your custom class just like in the picture and connect outlets and actions you declared in the class.</p>
+
+<p><img class="test.h" src="http://i.imgur.com/FESvX.png"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[cracow-mobi]]></title>
