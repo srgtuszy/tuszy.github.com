@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iOS | Mobile Developer's blog]]></title>
-  <link href="http://Tuszy.github.com/blog/categories/ios/atom.xml" rel="self"/>
-  <link href="http://Tuszy.github.com/"/>
-  <updated>2012-01-18T16:31:22+01:00</updated>
-  <id>http://Tuszy.github.com/</id>
+  <link href="http://tuszy.github.com/blog/categories/ios/atom.xml" rel="self"/>
+  <link href="http://tuszy.github.com/"/>
+  <updated>2012-01-19T12:00:31+01:00</updated>
+  <id>http://tuszy.github.com/</id>
   <author>
     <name><![CDATA[Michal Tuszynski]]></name>
-    
+    <email><![CDATA[srgtuszy@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[UIViews from xib files]]></title>
-    <link href="http://Tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files/"/>
+    <link href="http://tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files/"/>
     <updated>2012-01-18T15:35:00+01:00</updated>
-    <id>http://Tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files</id>
+    <id>http://tuszy.github.com/blog/2012/01/18/uiviews-from-xib-files</id>
     <content type="html"><![CDATA[<p>During my last project, there was a need to load UIView classes from xib files. It's pretty
 simple with the following method which takes two arguments: the xib name (without xib extension) and the Class of the UIView subclass.</p>
 

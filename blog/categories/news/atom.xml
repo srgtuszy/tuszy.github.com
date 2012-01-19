@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: news | Mobile Developer's blog]]></title>
-  <link href="http://Tuszy.github.com/blog/categories/news/atom.xml" rel="self"/>
-  <link href="http://Tuszy.github.com/"/>
-  <updated>2012-01-18T16:31:22+01:00</updated>
-  <id>http://Tuszy.github.com/</id>
+  <link href="http://tuszy.github.com/blog/categories/news/atom.xml" rel="self"/>
+  <link href="http://tuszy.github.com/"/>
+  <updated>2012-01-19T12:00:31+01:00</updated>
+  <id>http://tuszy.github.com/</id>
   <author>
     <name><![CDATA[Michal Tuszynski]]></name>
-    
+    <email><![CDATA[srgtuszy@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[cracow-mobi]]></title>
-    <link href="http://Tuszy.github.com/blog/2011/12/11/cracow-mobi/"/>
+    <link href="http://tuszy.github.com/blog/2011/12/11/cracow-mobi/"/>
     <updated>2011-12-11T18:00:00+01:00</updated>
-    <id>http://Tuszy.github.com/blog/2011/12/11/cracow-mobi</id>
+    <id>http://tuszy.github.com/blog/2011/12/11/cracow-mobi</id>
     <content type="html"><![CDATA[<p>That was sure a very busy weekend. I had an opportunity to participate
 as a speaker in Cracow.mobi conference. The subject of my talk was Data Persistance
 in iOS. I tried to make it attractive both for beginners by starting the
